@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter-8-generic/Chapter-8-generic.iml" filepath="$PROJECT_DIR$/Chapter-8-generic/Chapter-8-generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/foundation.iml" filepath="$PROJECT_DIR$/foundation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/generic/generic.iml" filepath="$PROJECT_DIR$/generic/generic.iml" />
     </modules>
   </component>
 </project>
