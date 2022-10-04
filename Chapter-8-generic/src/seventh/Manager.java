@@ -7,8 +7,6 @@ package seventh;
  */
 public class Manager extends Employee {
 
-    private String name;
-    private Double bonus;
     private String skill;
 
     public Manager() {
@@ -26,8 +24,8 @@ public class Manager extends Employee {
     @Override
     public String toString() {
         return "Manager{" +
-                "name='" + name + '\'' +
-                ", bonus=" + bonus +
+                "name='" + super.getName() + '\'' +
+                ", bonus=" + super.getBonus() +
                 ", skill='" + skill + '\'' +
                 '}';
     }
