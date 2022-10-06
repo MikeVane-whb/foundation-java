@@ -11,6 +11,7 @@ import java.util.Scanner;
  */
 public class GenericReflectionTest {
     public static void main(String[] args) {
+        System.out.println("=============泛型8.9.3 虚拟机中的泛型类型信息=============");
         // read class name from command line args or user input(从命令行参数或者用户输入 读取 class 名称)
         String name;
         if(args.length > 0) name = args[0];

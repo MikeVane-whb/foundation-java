@@ -6,6 +6,7 @@ import sixth.Pair;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 反射与泛型
@@ -25,13 +26,13 @@ public class ReflectionAndGeneric {
         System.out.println(cast);
 
         System.out.println("=============泛型8.9.2 使用 Class<T>参数进行类型匹配=============");
-        Pair<? super Manager> managerPair = Pair.makePair(Manager.class);
+        Pair<? super Manager> managerPair = Pair.makePair(Employee.class);
 //        Pair<? extends Employee> employeePair1 = Pair.makePair(Manager.class);
-        managerPair.setFirst(new Manager("ly"));
+        managerPair.setFirst(new Manager("vane"));
         managerPair.setSecond(new Manager("mike"));
+//        managerPair.setFirst();
+//        Pair<? extends Manager> employeePair = Pair.makePair(Employee.class);
         System.out.println(managerPair);
-
-        System.out.println("=============泛型8.9.3 虚拟机中的泛型类型信息=============");
 
     }
 
