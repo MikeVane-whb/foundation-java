@@ -1,8 +1,11 @@
 package eighth;
 
-import seventh.Employee;
-import seventh.Manager;
+import common.Employee;
+import common.Manager;
 import sixth.Pair;
+
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 通配符类型
@@ -16,7 +19,6 @@ public class WildCard {
         Manager mike = new Manager("mike");
         Manager peter = new Manager("peter");
         printBuddies(new Pair<Manager>(mike, peter));
-
 
         Pair<Manager> managerPair = new Pair<Manager>(mike, peter);
         Pair<? extends Employee> wirdcardBuddies = managerPair;
@@ -61,7 +63,7 @@ public class WildCard {
         System.out.println(PairAlg.hasNulls(nullPair));
 
         System.out.println("\n=============泛型8.8.4 通配符捕获=============");
-        System.out.println("通配符不是类型变量，因此，不能再编写代码中使用 \"?\" 作为一种类型");
+        System.out.println("通配符不是类型变量，因此，不能在编写代码中使用 \"?\" 作为一种类型");
         /**
          * ? t = p.getFirst() //ERROR
          */

@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Employee
 {
     private String name;
-    private Double salary;
+    private double salary;
     private LocalDate hireDay;
 
     public Employee(String n, double s, int year, int month, int day)
@@ -39,19 +39,7 @@ public class Employee
         return hireDay;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSalary(Double salary) {
-        this.salary = salary;
-    }
-
-    public void setHireDay(LocalDate hireDay) {
-        this.hireDay = hireDay;
-    }
-
-    public void raiseSalary(Double byPercent)
+    public void raiseSalary(double byPercent)
     {
         double raise = salary * byPercent / 100;
         salary += raise;

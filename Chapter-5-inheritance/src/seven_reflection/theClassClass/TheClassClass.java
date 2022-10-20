@@ -1,4 +1,4 @@
-package seven_reflection;
+package seven_reflection.theClassClass;
 
 import common.Employee;
 import common.Manager;

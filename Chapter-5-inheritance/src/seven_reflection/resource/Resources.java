@@ -1,4 +1,4 @@
-package seven_reflection;
+package seven_reflection.resource;
 
 import javax.swing.*;
 import java.io.ByteArrayOutputStream;

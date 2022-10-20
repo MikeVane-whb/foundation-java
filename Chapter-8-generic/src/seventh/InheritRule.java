@@ -1,5 +1,7 @@
 package seventh;
 
+import common.Employee;
+import common.Manager;
 import second.Pair;
 
 import java.util.ArrayList;

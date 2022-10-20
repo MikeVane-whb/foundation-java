@@ -1,12 +1,8 @@
 package ninth;
 
-import seventh.Employee;
-import seventh.Manager;
+import common.Employee;
+import common.Manager;
 import sixth.Pair;
-
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * 反射与泛型
